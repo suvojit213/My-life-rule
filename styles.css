@@ -32,3 +32,22 @@ ol {
 li {
     margin-bottom: 10px; /* Add space between each list item */
 }
+
+.radiant-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: linear-gradient(45deg, #ff4081, #ff6e40);
+    border-radius: 25px;
+    box-shadow: 0 5px 15px rgba(255, 105, 180, 0.3);
+    transition: background 0.5s ease;
+}
+
+.radiant-button:hover {
+    background: linear-gradient(45deg, #ff6e40, #ff4081);
+    box-shadow: 0 10px 20px rgba(255, 105, 180, 0.5);
+}
