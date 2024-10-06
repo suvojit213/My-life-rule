@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background: linear-gradient(135deg, #f0f8ff, #e6e6fa, #ffe4e1);
     margin: 0;
     padding: 0;
 }
@@ -8,10 +8,10 @@ body {
 .container {
     width: 80%;
     margin: auto;
-    background: white;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white for a soft look */
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
