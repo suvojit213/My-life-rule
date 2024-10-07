@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     color: #333; /* Set a default text color */
+    padding-bottom: 80px; /* Add padding to avoid footer overlap */
 }
 
 header {
